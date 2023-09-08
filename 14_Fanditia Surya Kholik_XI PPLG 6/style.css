@@ -1,0 +1,240 @@
+/*All*/
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #001C30;
+    color: #64CCC5;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+/*Beranda*/
+
+.menu{
+    float: right;
+}
+.nama{
+    float: left;
+    color: #64CCC5;
+    font-weight: bold;
+    text-align: center;
+}
+.navigasi{
+    width: 1200px;
+    height: 60px;
+    margin: auto;
+    position: relative;
+}
+.nama a{
+    color: #64CCC5;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav{
+    width: 100%;
+    line-height: 60px;
+    position: fixed;
+    top: 0;
+    background: rgba(0,0,0,0.10);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    border: 1px solid black;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left; 
+}
+nav ul li a{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    color: #64CCC5;
+}
+img {
+    float: right;
+    width: 300px;
+    height: 350px;
+}
+h1 span{
+    margin-top: 1 block;
+    font-size: 40px;
+}
+.container1 {
+    font-family: sans-serif;
+    padding-left: 29px;
+    height: 500px;
+    width: 90%;
+    overflow: hidden;
+    margin-bottom: 0;
+    margin-top: 150px;
+
+}
+.container1 h1 {
+    color: white;
+    padding-top: 2px;
+}
+.container1 h2{
+    color: #64CCC5;
+    padding-bottom: 5px;
+}
+.container1 h3{
+    color: #64CCC5;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    color: #647484;
+}
+.container1 p{
+    color: #647484;
+    font-weight: bold;
+}
+.home{
+    padding-top: 5px;
+}
+
+/*Tentang saya*/
+
+.tentangsaya{
+    padding-top: 80px;
+}
+.container2 {
+    display: flex;
+    width: 95%;
+}
+h4{
+    padding-left: 20px;
+}
+.container2 p{
+    color: #647484;
+}  
+.text-container{
+    flex: 1;
+    padding: 20px;    
+    padding-top: 10px;
+}
+.text-container span{
+    color: white;
+}
+.container3{
+    text-align: center;
+    font-size: 20px;
+}
+.container3 h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+/*Portfolio*/
+
+.portfolio{
+    padding-top: 62px;
+    margin-bottom: 90px;
+}
+.background-3 h4{
+    padding-top: 70px;
+}
+.portof{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.container3 p{
+    color: #647484;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin-top: 30px;
+}
+
+.image-box {
+    text-align: center;
+    max-width: calc(400px - 30px);
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image-box img {
+    width: 400px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.image-box p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+}
+/*Footer*/
+.contact {
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+.container4 {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin-top: 20px;
+}
+.container4 p{
+    text-align: center;
+}
+.contact{
+    padding-top: 10px;
+}
+.contact h4{
+    font-size: 25px;
+    color: #64CCC5;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.social-icons a {
+    margin-right: 15px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+.footer-text {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.footer-text span a{
+    color: #64CCC5; 
+}
+.background-3 {
+    background-color: #1e293b; /* Warna latar belakang ketiga */
+    height: 130vh; /* Tinggi latar belakang */
+  }
